@@ -1,0 +1,6 @@
+text = input("Introduce the text: ")
+low_text = text.lower()
+the_character = input("Introduce the character to be count: ")
+low_character = the_character.lower()
+count_of_characters = low_text.count(low_character)
+print(f'The character appeared  {count_of_characters}  times in the text')

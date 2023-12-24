@@ -1,0 +1,5 @@
+time1 = float(input("Type 1st count of the time for 100-meter race in seconds  = "))
+time2 = float(input("Type 2nd count of the time for 100-meter race in seconds  = "))
+time3 = float(input("Type 3rd count of the time for 100-meter race in seconds  = "))
+average = round(((time1 + time2 + time3) / 3), 2)
+print("Average time for 100-meter race in seconds  = ", average)

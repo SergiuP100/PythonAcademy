@@ -1,0 +1,12 @@
+x = int(input("Introduce x: "))
+y = int(input("Introduce y: "))
+sum = x + y
+print("Sum = ", sum)
+diff = x - y
+print("Difference = ", diff)
+rest_impart = x % y
+print("Rest = ", rest_impart)
+mult = x * y
+print("Mult = ", mult)
+power3 = x**3
+print("Powerx3 = ", power3)
